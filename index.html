@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <main id="music-player">
+
+        <div id="music">
+          
+            <img id="image" src="https://images.unsplash.com/photo-1771136681032-50ba1d52810b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D" alt="default image">
+            <h3 id="tag-name"></h3>
+            <input id="progress" value="0" type="range">
+            <div id="buttons">
+                <span><i id="prev" class="fa-solid fa-backward-step"></i></span>
+                <span><i id="play-button" class="fa-solid fa-play"></i></span>
+                <span><i id="next" class="fa-solid fa-forward-step"></i></span>
+               
+            </div>
+             <div id="volume-container">
+             <i class="fa-solid fa-volume-high"></i>
+              <input id="volume" value="50" type="range">
+               </div>
+
+        </div>
+
+
+        <span id="collapse-expand">
+            <i id="arrow" class="fa-solid fa-arrow-right"></i>
+        </span>
+
+    </main>
+
+     <aside id="song-list">
+
+        <h3>My List</h3>
+
+        <div id="song-track">
+
+            
+
+        </div>
+
+     </aside>
+
+     </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
