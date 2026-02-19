@@ -155,7 +155,7 @@ input[type="range"]::-webkit-slider-thumb{
 
 #song-list{
     width: 25%;
-    background-color: lightpink;
+    background-color: beige;
     padding: 20px;
     border-left: 1px solid #f30808;
     display: flex;
@@ -194,7 +194,7 @@ input[type="range"]::-webkit-slider-thumb{
 .songItem{
     padding: 12px 15px;
     border-radius: 10px;
-    background-color: lightpink;
+    background-color: beige;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,14 +209,14 @@ input[type="range"]::-webkit-slider-thumb{
 
 
 .songItem:hover{
-    background-color:lightpink;
+    background-color:beige;
     transform: translateX(4px);
     cursor: pointer;
 }
 
 
 .songItem.active{
-    background-color: lightpink;
+    background-color: beige;
     font-weight: 600;
     border-left: 4px solid #4a6cf7;
 }
